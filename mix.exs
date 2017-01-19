@@ -28,6 +28,8 @@ defmodule HelloElixir.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+        {:sugar, "~> 0.4.9"},
+    ]
   end
 end
